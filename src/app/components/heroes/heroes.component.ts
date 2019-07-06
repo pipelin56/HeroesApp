@@ -18,8 +18,8 @@ export class HeroesComponent implements OnInit {
   }
 
   //Mediante un botón ejecutamos esta función
-  verHeroe(idx:number){
-    this.router.navigate( ['/heroe', idx] );
+  verHeroe(index: number){
+    this.router.navigate( ['/heroe', index] );
   }
 
 }
